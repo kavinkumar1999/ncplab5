@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Kavinumar</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1> NCP lab 5</h1>
+    <main>
+      <h1>
+          Kavinkumar</a
+        >
+      </h1>
+      <p>Select your degree</p>
+      <form id="mainform">
+        <input required type="radio" id="UG" name="degree" value="UG" />
+        <label for="UG">UG</label><br />
+        <input required type="radio" id="PG" name="degree" value="PG" />
+        <label for="PG">PG</label><br />
+        <input required type="radio" id="MBA" name="degree" value="MBA" />
+        <label for="MBA">MBA</label>
+
+        <br />
+        <br />
+        <p>For attending online  classes</p>
+        <input
+          required
+          type="checkbox"
+          id="device1"
+          name="device"
+          value="Laptop"
+        />
+        <label for="device1"> I have a Laptop</label><br />
+        <input
+          required
+          type="checkbox"
+          id="device2"
+          name="device"
+          value="smartphone"
+        />
+        <label for="device2"> I have a Smartphone</label><br />
+        <input
+          required
+          type="checkbox"
+          id="device3"
+          name="device"
+          value="Desktop"
+        />
+        <label for="device3"> I have a Desktop</label><br />
+
+        <br />
+        <br />
+
+        <label for="textbox1">Your email:</label><br />
+        <input
+          required
+          class="textbox"
+          id="email"
+          type="text"
+          placeholder="enter your email"
+        />
+        <br />
+        <br />
+        <label for="textbox2">Your phone:</label><br />
+        <input
+          required
+          class="textbox"
+          id="phone"
+          type="text"
+          placeholder="enter your phone no."
+        />
+        <br />
+        <br />
+        <label for="con">Choose internet connectivity:</label>
+        <select required name="con" id="con" form="carform">
+          <option value="default">Choose connection</option>
+          <option value="broadband">Broadband</option>
+          <option value="mobile">Mobile Hotspot</option>
+        </select>
+
+        <br />
+        <br />
+
+        <button type="submit" form="mainform" value="Submit">Submit</button>
+        <button type="reset" form="mainform" value="reset">Reset</button>
+      </form>
+    </main>
+  </body>
+</html>
